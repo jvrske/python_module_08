@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ex1"
+version = "0.1.0"
+description = "Matrix data analysis tool using pandas/numpy/matplotlib"
+authors = ["csilva <csilva@student.42lisboa.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "2.1.0"
+numpy = "1.25.2"
+matplotlib = "3.7.2"
+requests = "2.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
